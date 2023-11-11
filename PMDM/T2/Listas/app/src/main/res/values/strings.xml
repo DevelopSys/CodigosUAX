@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Listas</string>
+    <string-array name="lista_marcas">
+        <item>Mercedes</item>
+        <item>Ford</item>
+        <item>Audi</item>
+    </string-array>
+</resources>
