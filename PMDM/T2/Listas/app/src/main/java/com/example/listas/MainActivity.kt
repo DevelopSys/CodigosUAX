@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
                 && binding.editPass.text.toString().equals("admin")){
                 // voy a pasar de pantalla
                 val intent = Intent(applicationContext, SecondActivity::class.java)
-                intent.putExtra("usuario",Usuario(binding.editUsuario.toString(), binding.editPass.toString()))
+                intent.putExtra("usuario",Usuario(binding.editUsuario.text.toString(), binding.editPass.text.toString()))
                 startActivity(intent)
             } else {
                 // Snackbar

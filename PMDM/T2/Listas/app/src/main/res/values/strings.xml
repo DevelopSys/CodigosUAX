@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Listas</string>
+    <string name="mensaje">El precio del coche es: </string>
     <string-array name="lista_marcas">
-        <item>Mercedes</item>
+        <item>Opel</item>
         <item>Ford</item>
-        <item>Audi</item>
+        <item>Seat</item>
     </string-array>
 </resources>
