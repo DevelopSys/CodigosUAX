@@ -33,17 +33,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:id="@+id/boton_filtrar"
-        android:text="Filtrar"/>
+        android:text="Aádir dato"/>
 
-    <ListView
-        android:id="@+id/listView_modelos"
-        android:layout_margin="10dp"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_modelos"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_margin="10dp"
         app:layout_constraintBottom_toTopOf="@+id/boton_filtrar"
-        app:layout_constraintEnd_toEndOf="@+id/spinner_marcas"
-        app:layout_constraintStart_toStartOf="@+id/spinner_marcas"
-        app:layout_constraintTop_toBottomOf="@id/spinner_marcas"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_marcas" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
