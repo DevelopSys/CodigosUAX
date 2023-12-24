@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="50dp"
+        android:src="@drawable/user"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_usuario"
+        android:inputType="text"
+        android:hint="por favor introduce nombre"
+        android:drawableLeft="@drawable/user_ico"
+        android:drawablePadding="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <EditText
+        android:drawableLeft="@drawable/pass_ico"
+        android:drawablePadding="20dp"
+        android:hint="por favor introduce pass"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edit_pass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/edit_usuario"
+        app:layout_constraintStart_toStartOf="@+id/edit_usuario"
+        app:layout_constraintTop_toBottomOf="@+id/edit_usuario" />
+
+    <CheckBox
+        android:id="@+id/check_recordar"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recordad datos"
+        app:layout_constraintStart_toStartOf="@+id/edit_pass"
+        app:layout_constraintTop_toBottomOf="@+id/edit_pass" />
+
+    <Button
+        android:id="@+id/boton_login"
+        android:text="Iniciar sesion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edit_pass"
+        app:layout_constraintStart_toStartOf="@+id/check_recordar"
+        app:layout_constraintTop_toBottomOf="@+id/check_recordar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
