@@ -16,7 +16,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <script src="./utils/js/inicio.js"></script>
+
     <title>Document</title>
   </head>
   <body>
@@ -28,6 +28,31 @@
         <button class="btn btn-danger" id="boton3">Pulsar para empezar</button>
         <a class="btn btn-primary" href="https://www.uax.com">Ir a la UAX</a>
       </div>
+      <h1>Modificacion de nodos</h1>
+      <input
+        id="inputnombre"
+        class="form-control"
+        type="text"
+        placeholder="Introduce tu nombre"
+      />
+      <input
+        id="inputedad"
+        class="form-control"
+        type="number"
+        placeholder="Introduce tu edad"
+      />
+      <button class="btn btn-primary" id="botonagregar">Agregar</button>
+      <button class="btn btn-primary" id="botonvaciar">Vaciar</button>
+      <p>Esto es un ejemplo de modificacion de nodos</p>
+      <ul class="list-group"></ul>
+
+      <!-- 
+          etiqueta -> head, div, h1, body
+          attr -> id, class
+          contenido -> "Modificacion de nodos","Ir a la UAX"
+          valor -> btn btn-primary https://www.uax.com boton3
+       -->
     </main>
+    <script src="./utils/js/inicio.js"></script>
   </body>
 </html>
