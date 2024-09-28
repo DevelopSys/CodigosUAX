@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">ListasJSON</string>
-    <string-array name="genero">
-        <item>male</item>
-        <item>female</item>
-    </string-array>
-</resources>
