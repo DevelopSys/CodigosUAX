@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--todos los elementos que esten dentro del linear se situan izq a derecha o arriba a abajo-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Primera APP ANDROID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pulsar"
+        android:id="@+id/botonPulsar"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saludar"
+        android:id="@+id/botonSaludo"
+        android:backgroundTint="@color/rojo"
+
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editNombre"
+        />
+
+    <!--EditText-->
+
+
+
+</LinearLayout>
