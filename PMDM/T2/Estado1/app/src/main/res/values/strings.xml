@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Estado1</string>
+    <string name="texto_check">Activar edicion</string>
+    <string name="anadir">Añadir</string>
+</resources>

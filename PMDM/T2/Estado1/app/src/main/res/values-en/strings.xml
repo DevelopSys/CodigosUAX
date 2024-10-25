@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">State</string>
+    <string name="texto_check">Enable editing</string>
+    <string name="anadir">Add</string>
+</resources>
