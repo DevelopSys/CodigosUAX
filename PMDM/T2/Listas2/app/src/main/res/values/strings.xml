@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Listas2</string>
+    <string-array name="array_habilitado">
+        <item>Selecciona accion</item>
+        <item>Habilitado</item>
+        <item>Deshabilitado</item>
+    </string-array>
+</resources>
