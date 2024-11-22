@@ -1,0 +1,29 @@
+NATIVO -> ANDROID   KOTLIN 
+		  IOS SWIFT   OBJETIVE C
+
+FLUTTER -> DART -> IOS, ANDROID, WEB, DESKTOP, LINUX, MACOS
+
+StatefulWidget -> aquellos que guardan datos (estado). Sirven para guardar y recuperar cosas
+StatelessWidget -> aquellos que no guardan datos (estado). Mostrar cosas
+
+Widgets - ARBOL
+	MaterialApp
+		title
+		theme
+		home: 
+			Scaffold
+				appBar : AppBar(title: Text())
+				body: 
+					Center(
+						child: Column(
+							childs:[
+
+								
+
+							]
+						)
+					)
+				floatingActionButton
+
+
+
