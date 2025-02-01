@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Tienda productos</title>
+  </head>
+  <body>
+    <div class="container mt-4 text-center">
+      <h1>Tienda de productos</h1>
+      <div id="fila" class="row mt-4">
+        <div class="col">
+          <h2>Formulario datos</h2>
+          <div class="mt-4">
+            <input
+              id="inputNombre"
+              type="text"
+              placeholder="Introduce nombre producto"
+              class="form-control mt-3"
+            />
+            <input
+              value="0"
+              id="inputPrecio"
+              type="number"
+              placeholder="Introduce precio del producto"
+              class="form-control mt-3"
+            />
+            <input
+              id="inputDescripcion"
+              type="text"
+              placeholder="Introduce descripcion producto"
+              class="form-control mt-3"
+            />
+
+            <input
+              id="inputFecha"
+              type="date"
+              placeholder="Introduce fecha venta"
+              class="form-control mt-3"
+            />
+
+            <select class="form-select mt-3" id="selectCategoria">
+              <option>Ropa</option>
+              <option>Muebles</option>
+              <option>Comida</option>
+              <option>Perfumes</option>
+            </select>
+
+            <button class="btn btn-outline-primary mt-5" id="botonEnviar">
+              Enviar
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <h2>Listado resultados</h2>
+          <ul class="list-group mt-4" id="listaProductos">
+            <!-- escribo html dentro del nodo ul listaProductos innerHTML-->
+          </ul>
+          <button class="btn btn-outline-primary mt-5" id="btnVaciar">
+            Vaciar carrito
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./utils/index.js"></script>
+  </body>
+</html>
