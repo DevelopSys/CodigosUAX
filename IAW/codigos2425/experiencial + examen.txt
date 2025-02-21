@@ -1,0 +1,129 @@
+SQL -> MySQL // Postgresql // Oracle -> Tablas -> FK PK -> Registros
+NOSQL -> MongoDB -> Collection -> Documentos -> par - clave valor -> JSON
+
+
+CLIENTE - NAVEGADOR(JS)				SRVWEB(Apache/Tomcat/IIS)					BASE DATOS (SQL / MONGO)
+									  (PHP,NODEJS,JAVA,PY)
+
+1
+https://localhost:8080/misrv/
+https://dummyjson.com/products/pantalon -> args o param
+https://www.thesportsdb.com/api/v1/json/3/search_all_teams.php?s=Soccer&c=Spain -> queryParam
+https://dummyjson.com/products -> body -> segura
+
+dominio/carpeta/endpoint/arguments
+dominio/carpeta/endpoint?nombre_arg=valor&nombre_arg=valor
+
+SELECT * FROM PRODUCTOS WHERE tipo = pantalon AND price=76
+
+
+2 
+server analiza
+
+https://dummyjson.com/products/ -> GET
+
+https://dummyjson.com/products/1 -> GET
+https://dummyjson.com/products/1 -> DELETE
+https://dummyjson.com/products/1 -> PUT
+https://dummyjson.com/products/1 -> POST (NO)
+
+https://dummyjson.com/products/add -> POST
+INSERT INTO PRODUCTOS () VALUES ('Pantalon','asdasdasdasd',87.76)
+
+metodos?    
+			GET -> select
+			POST -> insert
+			PUT -> update
+			DELETE -> delete
+arguments?
+
+
+
+3 
+se ejecuta en base datos peticion
+
+4
+base datos contesta al server con la peticion realizada
+
+5
+server codifica la respuesta y se la pasa al cliente
+XML,CSV,JSON
+par clave-valor
+{} -> JSONObject -> tiene claves-valor
+[] -> JSONArray -> tiene posiciones
+
+let objeto = {
+				nombre:"Borja",
+				apellido:"Martin",
+				edad:40,
+				experiencia:true,
+				asignaturas:[{nombre:"IAW",curso:"ASIR",nivel:2},{nombre:"PMDM",curso:"DAM",nivel:2}]
+			}
+
+objeto.nombre -> Borja
+objeto.experiencia -> true
+objeto.asingaturas[1].nombre -> PMDM
+// sacar el nombre de todas las asignaturas
+for (i=0; i<objeto.asignatuas.tamaño; i++){
+	objeto.asignatuas[i].nombre
+}
+
+
+
+
+6
+el cliente la analiza y la renderiza/interpreta
+
+promesa -> algo que se ejecuta en 2º plano (asincronia) -> fetch()
+	- correcta -> then
+	- incorrecta -> catch
+
+
+test (5-6) -> 30 
+		4 opciones 1 unica respuesta
+
+pratica (5-4) -> 
+	
+		CODIFICANDO -> resumen de los comandos, funciones, etc etc (XAMP -> APACHE)
+		- php: pasa un parametro de un formulario utilizando JS a un php
+		- php: obten todos los registros de la tabla usuarios y representalos en una lista
+		- php: crea un formulario en php e inserta en una tabla los campos de este
+
+
+		TEORICAS????? 
+		LAS PREGUNTAS QUE SON DE CODIGO NO PIDO CODIGO LITERAL, PIDO Pseudocodigo
+		- pongo un trozo de codigo y te hago preguntas sobre el codigo. En la linea 4 que hace la funcion $GET[]
+		- dime los errores que ves en el codigo
+		- explicame del paso de una variable entre dos PHP
+		- si quiero pintar una lista con datos de una tabla, como analizaría la SELECT 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
