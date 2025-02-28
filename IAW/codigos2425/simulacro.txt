@@ -1,0 +1,80 @@
+1. ¿Qué significa HTML?
+a) HyperText Markup Language
+b) High-level Textual Language
+c) HyperTransfer Markup Language
+d) Hyperlink and Text Management Language 
+
+2. ¿Cuál de las siguientes etiquetas HTML se utiliza para crear un enlace?
+a) <link>
+b) <a> 
+c) <url>
+d) <anchor>
+
+3. ¿Cuál de las siguientes es una tecnología web del lado del servidor?
+a) PHP
+b) JavaScript
+c) HTML
+d) Powershell 
+
+4. ¿Cuál es el propósito de la etiqueta <form> en HTML?
+a) Crear un formulario de contacto
+b) Definir una estructura de página web
+c) Agrupar elementos de formulario para su procesamiento en el servidor
+d) Insertar imágenes en la página
+
+5. ¿Cuál de las siguientes bases de datos es más comúnmente utilizada en el desarrollo web?
+a) MongoDB
+b) SQLite
+c) MySQL
+d) Oracle Database
+
+6. ¿Qué significa el acrónimo CDN en el contexto de la entrega de contenido web?
+a) Central Delivery Network
+b) Content Development Network
+c) Content Distribution Network *
+d) Centralized Domain Naming
+
+6. ¿Cuál de las siguientes declaraciones JavaScript se utiliza para definir una variable?
+a) const x; 
+b) int x;
+c) variable x;
+* d) let x;
+
+7. ¿Qué hace la función "document.querySelector("#datos")" en JavaScript?
+a) Accede a un elemento HTML por su clase
+b) Accede a un elemento HTML por su identificador *
+c) Cambia el contenido de un elemento HTML
+d) Crea un nuevo elemento HTML
+
+8 ¿Cuál es el formato común para representar datos estructurados en la web?
+a) JSON*
+b) XML
+c) YAML
+d) CSV
+
+9. ¿Qué significa el acrónimo "CMS" en el contexto de desarrollo web?
+a) Content Management System*
+b) Code Management System
+c) Content Markup System
+d) Creative Management System
+
+10. ¿Cual de los siguientes métodos permite mostrar parámetros en una url?
+
+a) post
+b) get
+c) put
+d) delete
+
+11. Para poder ejecutar código en php en local, es necesario 
+
+a) levantar un servidor 
+b) insertar el código en un fichero .html
+c) abrir el fichero en un navegador
+d) cualquiera de las anteriores
+
+
+Explica como funciona una arquitectura de tres capas
+Cuando hablamos de aplicaciones oncloud, existen tres trandes tipos. Explica cada uno de ellos y pon un ejemplo
+Explica cual es el proceso para poder pasar varables de un formulario escrito en html a un fichero php
+Explica como obtendrías datos de una base de datos y los representarís en una tabla
+
