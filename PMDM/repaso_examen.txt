@@ -1,0 +1,45 @@
+test - 5 puntos
+20 preguntas
+respuesta unicas
+
+Cual de los siguientes metodos no pertenece al ciclo de vida de una pantalla
+	onAttach
+	onStart
+	onCreate
+	onResume
+
+Cuando hacemos una app en flutter, si quiero guardar el contenido de un TextField, debo utilizar
+
+	un statefull
+	un stateless
+	es indiferente
+	no se pueden crear estados
+
+practica -> 5 3 o 4 preguntas
+
+1-Indica como es el ciclo de vida de una activity (1.5 puntos)
+2-Imagina que tienes dos activitys, Indica como harias el paso de una a otra. Y si ademas quiero pasar datos, como sería
+
+	logica -> 
+	para poder pasar de una pantalla a otra, lo primero necesario es tener dos activitys. Dentro la primera activity y tras la pulsacion de un boton, asociado con un escuchador
+	boton.setOnClickListener {} ejecutar la accion de pasar de pantalla. Para ello es encesario utilizar un elemento Intent, al cual se le tiene que decir el origen y el destino, es decir la pantalla donde estoy y la pantalla donde quiero ir
+	var i = Intent(applicationContext, SecondActivity::java.class)
+	startActivity(i)
+
+	Ademas de utilizar lo explicado anteriormente, habria que incorporar unos extras al intent en la pantalla origen con un par clave - valor. En la pantalla destino, seria necesario recuperarlos
+
+	var i = Intent(applicationContext, SecondActivity::java.class)
+	var bundle = Bundle()
+	bundle.putExtra("datp",datp)
+	i.putExtras("extas",bundle)
+	startActivity(i)
+
+
+	intent.getExtras("extras").getString("dato")
+3-Define el concepto de gameObject. Define principales componentes que se utilizan en unity para agregar a un gameobject
+
+gameObject -> componentes -> scripts (C# : Monobehaviour -> Start ->1vez 1erframe -Update-> 1 ver por cada frame -> OnCollisionEntered -> ejecutado cuando dos gameObeject entra en colision con los collider)
+
+
+
+
