@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Inicial</string>
+    <string name="button_saludar">Saludar</string>
+    <string name="button_lanzar">Empezar</string>
+    <string name="button_limpiar">Limpiar</string>
+</resources>

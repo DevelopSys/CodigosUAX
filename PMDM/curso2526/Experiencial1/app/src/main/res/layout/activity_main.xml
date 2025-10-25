@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imagenLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:src="@drawable/logo" />
+
+
+    <LinearLayout
+        android:id="@+id/fila1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:padding="6dp">
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/edit10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris"
+            android:gravity="center" />
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/edit11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris"
+            android:gravity="center" />
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/edit12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris"
+            android:gravity="center" />
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/edit13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris"
+            android:gravity="center" />
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/edit14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fila2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:padding="6dp">
+
+        <EditText
+            android:id="@+id/edit20"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/edit21"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/edit22"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/edit23"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/edit24"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fila3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:padding="6dp">
+
+        <EditText
+            android:id="@+id/edit30"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/edit31"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/edit32"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/edit33"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/edit34"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fila4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:padding="6dp">
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/edit40"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris"
+            android:gravity="center" />
+
+        <EditText
+
+            android:id="@+id/edit41"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/edit42"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris" />
+
+        <EditText
+            android:id="@+id/edit43"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris" />
+
+        <EditText
+            android:id="@+id/edit44"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:background="@drawable/fondo_edit_gris" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editEvaluar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:hint="@string/edit_hint"
+        android:gravity="center"
+        android:layout_margin="24dp"
+        />
+
+    <Button
+        android:id="@+id/botonEvaluar"
+        android:layout_margin="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:text="@string/button_check"
+        />
+
+
+</LinearLayout>

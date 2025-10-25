@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wordle</string>
+    <string name="edit_hint">Introduce la palabra</string>
+    <string name="button_check">Comprobar</string>
+    <string name="button_snack">Volver a jugar</string>
+    <string name="text_loser">Has perdido</string>
+</resources>

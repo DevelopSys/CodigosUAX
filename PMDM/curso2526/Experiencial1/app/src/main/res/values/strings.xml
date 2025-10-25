@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wordle</string>
+    <string name="edit_hint">Enter your word</string>
+    <string name="button_check">Check</string>
+    <string name="button_snack">Try again</string>
+    <string name="text_loser">You lose</string>
+</resources>
