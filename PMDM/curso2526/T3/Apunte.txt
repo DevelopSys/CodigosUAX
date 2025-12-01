@@ -1,0 +1,61 @@
+View -> Activity (XML + KT) + Cambio de pantalla y paso de datos (intent)
+			Binding
+			Listener (OnClickListener, OnCheckedChangeLister, OnItemSelectedListener)
+			Dialogos -> FragmentDialog 
+			Listas -> RecyclerView + ViewHolder
+
+	 -> Persistencia (BD)
+	 	-> Op1 SQLite (incluida con android). Interna Guardada dentro del movil en un fichero .db
+	 									- Ventajas: facilidad de uso. PrepareStatement/Statement/ResultSet
+	 												ORM -> Room
+	 									- Desventaja: los datos no son compartidos por los usuarios
+
+	 	-> Op2 MySQL (SQL) /Mongo (NoSQL)
+	 		https://midominii.com/users/add
+
+	 		Cliente (movil) <----------> SRV-WEB (ORM) <-----------> XAMPP (ServidorBD) API JSON URL
+	 									   Back-end
+	 									   python -> librerias - Django, Flask
+	 									   php -> librerias - laravel
+	 									   nodejs -> libreria - express 
+	 									   java -> libreria SpringBoot
+
+	 									   - ventajas: versatilidad, escalabilidad, personalizacion
+	 									   - desventajas: complejo de implementar
+
+	 	-> Op3 PaaS - caja negra - Supabase (Postgresql) - Firebase (NoSQL -> GOOGLE!!!)
+
+			Cliente (movil) <----------> Firebase <-----------> NoSQL (BD)
+
+											- ventajas: versatilidad, escalabilidad, personalizacion, facil de usar
+											- desvetaja: pago (firebase) mas de 5 proyectos y una cantidad de transacciones medio alta, supabase (gratuita)
+
+
+					- RealTime Database: NoSQL basados en nodos, basados en colecciones
+					- Authentication: Registro y Login con seguridad. SSO -> registrarte o iniciar sesion con Google, Facebook, GitHub, Apple, etc.......
+					- Storage: almacenamiento de ficheros (mas o menos como un drive)
+
+
+			Proyecto Android  <---------------> Proyecto Firebase (Auth)
+			Proyecto Web      --------------->
+			Proyecto IOs      --------------->
+			Proyecto Flutter  --------------->
+			Proyecto Unity    --------------->
+
+
+
+			NoSQL colecciones 
+			{
+				clave: valor,
+				clave: valor,
+				clave: valor,
+				clave: valor,
+				clave: valor,
+			},
+			{
+				clave: valor,
+				clave: valor,
+				clave: valor,
+				clave: valor,
+				clave: valor,
+			},

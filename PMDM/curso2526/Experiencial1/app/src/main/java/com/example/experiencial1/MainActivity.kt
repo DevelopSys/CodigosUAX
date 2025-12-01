@@ -239,7 +239,6 @@ class MainActivity : AppCompatActivity() {
                 fila.get(i).background = resources.getDrawable(R.drawable.fondo_edit_amarillo)
                 contadorInvalido++
             } else {
-                fila.get(i).background = resources.getDrawable(R.drawable.fondo_edit_rojo)
                 contadorInvalido++
             }
 

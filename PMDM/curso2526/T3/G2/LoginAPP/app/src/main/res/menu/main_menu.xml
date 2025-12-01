@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Ayuda"
+        android:id="@+id/item_ayuda"
+        />
+    <item android:title="Cerrar sesion"
+        android:id="@+id/item_cerrar"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        app:showAsAction="ifRoom"
+        />
+    <item android:title="Guardar dato"
+        android:id="@+id/item_guardar"
+        />
+    <item android:title="Consultar dato"
+        android:id="@+id/item_consultar"
+        />
+
+</menu>

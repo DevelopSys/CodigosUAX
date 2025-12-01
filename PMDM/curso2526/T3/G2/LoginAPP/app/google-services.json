@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "736950690873",
+    "firebase_url": "https://uaxg2-738ef-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "uaxg2-738ef",
+    "storage_bucket": "uaxg2-738ef.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736950690873:android:b51b3baf14cca4cbb959e8",
+        "android_client_info": {
+          "package_name": "com.example.loginapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNqbY_LPhdjHToq-Bb5bxaasCOrtona5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
