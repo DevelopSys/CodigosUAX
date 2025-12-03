@@ -1,0 +1,126 @@
+Android -> Desarrollo nativo -> Koltin (val/var/?/class)
+	Activity -> pantalla -> definidas dentro del AndroidManifest 
+		parte logica (.kt)
+			: AppCompactActivity
+				metodos del ciclo de vida: onCreate() asociaba parte grafica y logica
+				Binding -> xml -> .kt
+				listener -> OnClickListener / OnItemChangeListener
+				Intent -> Intent(this, SecondActivity::java.class)
+							i.putExtra("tag",dato) -> si es un objeto es necesario que implemente Serializable
+						  startActivity(i)
+
+						  recurperar los datos
+						  intent.getExtra("tag")
+
+				RecyclerView -> mostrar los elementos dentro de una lista -> lista infinita -> Holder -> Adapter : RecyclerView.Adapter
+
+				DialogFragment -> title/message/Button -> definido dentro de una clase : DialogFrament
+
+				Base de datos: externa (API), internar (SQLite -> readable / writtable), PaaS - Firebase - Auth/Database (NoSQL)
+
+		parte (.xml)
+			View -> elementos que se ven
+				Layout: Linear/Constraint
+						layout_heigth: wrap_content / match_parent / 0dp
+						layout_width:
+						id: @+id/nombre
+Flutter -> Desarrollo hibrido -> web/macOs/IOs/Android/Win/Linux -> Dart
+	widget -> cualquier elemento que forma parte de la app
+		widget stateless -> no guarda datos. Solo renderiza datos
+			@override Widget build()
+			{
+
+			}
+		widget statefull -> si puede guardar datos. Renderiza y guarda estados
+
+			@override State createState(){
+
+			}
+
+
+			dato = 2;
+			@override Widget build(){
+				setState(()=>{
+					// modificacion persistente de la variable dato
+				})
+			}
+Unity -> Motor de juegos
+	Parte del editor
+		Scene -> pantallas del juego
+			gameobject -> cada uno de los elementos que forman parte de la escena
+				components -> caracterizan al elemento: Transform(		pos,esc,rot) -> indicados cada uno en un Vector3(x,y,z)
+														Rigibody
+														Collider
+														SpriteRender
+														Animator
+														AudioSource
+														Script
+
+	Parte logica -> parte de codigo que gestiona como se comporta un gameObject -> C#
+		: MonoBehaviour{
+			Start() -> ejecutado en el primer frame -> utilizado para inicializar variables
+			Update() -> ejecutado en cada frame -> dependia del procesador -> utilizado para las actualizaciones logicas
+			FixedUpdate() -> ejecutado en cada frame pero en un tipo fijo -> utilizado para las actualizaciones graficas (los movimientos)
+			OnCollisionEnter2D() -> ejecutado cuando un collider entra en los limites fisicos de otro collider
+			OnCollisionExit2D() -> ejecutado cuando un collider sale en los limites fisicos de otro collider
+			OnTriggerEnter2D() -> ejecutado cuando un collider (configurado como trigger) entra en los limites fisicos de otro collider
+			OnTriggerExit2D() -> ejecutado cuando un collider (configurado como trigger) sale en los limites fisicos de otro collider
+		}
+
+EXAMEN
+
+Tipo test  -> 20 pregntas -> 5 puntos
+
+En caso de querer hacer una app android y tener una base de datos ubicada en local, es recomendable utilizar:
+a Un api desarollada en un servidor
+b Firebase
+c SQLite
+d MySQL
+
+En caso de tener una variable de tipo String la cual se que se iniciara pero no se en que momento, utilizo un:
+
+a. val
+b. String?
+c. init
+d. lateinit
+
+Si quiero hacer un componente que guarde un dato, es necesario sobreescribir los metodos:
+
+a. build
+b. createState -> statefullWidget
+d. ninguno
+d. setState
+
+En flutter, a la hora de crear varibles es obligatorio su tipado:
+ a. Solo para variables final
+ b. Solo para variables que puedan ser null
+ c. No es obligatorio, ya que es dinamico
+ d. No es obligatorio, pero la primera asignacion marca el tipo y no se podrá cambiar
+
+En caso de querer que a un gameobject le afecte la gravedad, utilizarás un componente llamado:
+a. BoxCollider
+b. ParticleSystem
+c. RigidBody
+d. SpriteRender
+
+Si quiero ubicar un componente en una posicion concreta, tendré que utilizar el componente transform con:
+a. Su caracteristica Position e indicar un Vector2/Vector3
+b. Su caracteristica Position sin necesidad de indicar un Vector3
+c. Su caracteristica RigidBody modificar su propiedad velocity
+d. Su caracteristica SpriteRender e indicar un Vector3 
+
+Tipo desarrollo -> 3 - 5 preguntas -> 5 puntos
+
+- Indica cual es el ciclo de vida de una activity y como funciona la asociacion grafico-logica
+
+- Indica que es el viewBinding y porque es recomendable utilizarlo dentro del desarrollo
+
+- Indica cual es la diferencia de un stateless y un statefull
+
+- Indica cuales son los tipos de parametros en DART
+
+- Indica cuales son los principales componentes en Unity y para que se utilizan
+
+- En un script, como moverias un objeto
+
+
