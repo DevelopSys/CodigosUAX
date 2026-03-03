@@ -1,0 +1,20 @@
+Web
+	Front	-> HTML / CSS (bootstrap) / JavaScript
+	Back 	-> php / java / nodejs / python / C#
+
+JavaScript
+	DOM -> Document Object Model
+	POO -> Programacion Orientada a Objetos
+	FETCH -> Asincrona - Promise
+
+	SPA -> Frameworks (librerias) -> Typescript
+		Angular -> IONIC 
+		React -> NextJS -> React Nativ
+		Vue -> Vue Native
+
+Examen
+	
+	Parte test -> 5
+		20 preguntas
+	Parte preguntas abiertas -> 5
+		3-5

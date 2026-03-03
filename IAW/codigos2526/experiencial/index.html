@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="./utils/css/style.css" rel="stylesheet" />
+    <title>Experciencial</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Clase experiencial</h1>
+      <p>Esta pagina es para poder comprobar las funcionalidades de JS</p>
+      <div class="row">
+        <div class="col">
+          <h2 class="coloreado">Introduccion datos</h2>
+          <input
+            id="input-nombre"
+            class="form-control mb-3"
+            type="text"
+            placeholder="Introduce nombre"
+          />
+          <input
+            id="input-apellido"
+            class="form-control mb-3"
+            type="text"
+            placeholder="Introduce apellido"
+          />
+          <input
+            id="input-correo"
+            class="form-control mb-3"
+            type="email"
+            placeholder="Introduce correo"
+          />
+          <input
+            id="input-pass"
+            class="form-control mb-3"
+            type="password"
+            placeholder="Introduce pass"
+          />
+          <select class="form-select mb-3" id="select-ciclo">
+            <option value="0">
+              Indica el ciclo donde te quieres matricular
+            </option>
+            <option>ASIR</option>
+            <option>DAM</option>
+            <option>DAW</option>
+          </select>
+
+          <button class="btn btn-primary w-100" id="btn-registro">
+            Registrarme
+          </button>
+          <button class="btn btn-danger w-100" id="btn-vaciar">
+            Vaciar lista
+          </button>
+        </div>
+        <div class="col">
+          <h2>Mostrador de datos</h2>
+          <ul class="list-group"></ul>
+        </div>
+      </div>
+    </main>
+    <script src="./utils/js/index.js"></script>
+    <!-- <script>
+      // codigo ejecutado dentro de un html
+      console.log("Ejemplo de codigo desde el fichero HTML");
+      // $nombre = "Borja"
+      // define("TAG","value")
+      let nombre = "Borja";
+      const dni = "asdasd";
+      console.log(`Mi nombre es ${nombre}`);
+    </script> -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
