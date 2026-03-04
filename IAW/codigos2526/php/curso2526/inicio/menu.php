@@ -12,6 +12,9 @@
                     <a class="nav-link" href="colecciones.php">Colecciones</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="formularios.php">Formularios</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="almacenamiento.php">Almacenamiento</a>
                 </li>
             </ul>

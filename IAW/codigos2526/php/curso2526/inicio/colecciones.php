@@ -56,6 +56,9 @@
             ?>
         <p>Procedemos a eliminar un elemento en una posicion desconicida</p>
         <input class="form-control">
+        <script>
+            // codigo JS
+        </script>
         <?php
         $posicion = array_search("Jorge", $alumnos);
         if ($posicion !== false) {
