@@ -1,1 +1,14 @@
 variable almacena UN dato
+	mutables - $nombre = 0;
+	constantes - define(nombre,valor)
+	$nombre
+
+	integer, double, float, boolean, string, Object (POO)
+	Array[] -> valores dinamicos ubicados en posiciones (indexado)
+	$alumnos = ["Borja", "Maria","Luis","Claudia"]
+				0,1,2,3
+
+	["Borja", "Maria","Claudia"]
+	0	1	2
+
+
