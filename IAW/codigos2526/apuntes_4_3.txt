@@ -1,0 +1,29 @@
+Formulario
+
+Una serie de input -> para poder capturar datos
+	<form>
+		input - text, date, number, pass
+		select - option
+		input - type button submit
+		button
+	</form>
+
+	1 completo formulario
+	2 realizo en envio -> action (.php)
+		pagina1.php -> pagina2.php
+		$_POST:	https://localhost/clase/formulario.php -> https://localhost/clase/pocesado.php
+		$_GET: 	https://localhost/clase/formulario.php -> https://localhost/clase/pocesado.php?nombre=asd&apellido=asdasd&pass=asd&correo=asdasd
+
+
+cliente		 -->		servidor	-->		base datos
+
+
+
+Pagina de compra
+	nombre -> asdqwqwe
+	apellido -> qweqweqwe
+	direccion -> qweqweqwe
+	correo -> qweqewqweqwe
+	tipo pago -> tarj, paypal, bizum, transf
+	direcc facturacion -> true / false
+	boton -> envia los datos al servidor
