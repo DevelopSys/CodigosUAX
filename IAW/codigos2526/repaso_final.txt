@@ -1,0 +1,48 @@
+Tema 1: Arquitecturas
+Aplicacion web
+	Front-Back -> lenaguajes de programacion
+	Back-> php
+
+Arquitectura
+	Cliente-Servidor
+	saas
+	paas
+	iaas
+
+Tema 2: CMS -> wordpress (html+css+js)
+	php -> Servidor PHP + MySQL (XAMPP) -> config.php
+	post
+	entradas
+	perfiles
+	plugins
+	temas
+
+Tema 3: Aplicaciones ofimaticas web
+
+Tema 4/5:
+	html + <?php ?>
+	.php
+	variable -> constantes
+	estructuras de control
+	estructuras de almacenamiento
+
+	formulario -> form action method GET/POST -> paso el daro -> $_POST[''] / $_GET['']
+	mysql -> config (host/db/user/pass/port) -> connection
+		CRUD
+		query -> INSERT UPDATE DELETE
+		prst -> QUERY ?,?,?,? -> bind_param("sssi",asd,asd,asd,1)
+		query -> execute
+
+
+		query -> INSERT UPDATE DELETE
+		prst -> QUERY ?,?,?,? -> bind_param("sssi",asd,asd,asd,1)
+		query -> results [array de todos los datos]
+		recorre el array y por cada fila -> result -> fetch_assoc()
+			haz lo que sea
+
+		connection.close
+		prst.close
+
+Experiencial -> JS -> DOM -> nodos (atributos)
+
+
