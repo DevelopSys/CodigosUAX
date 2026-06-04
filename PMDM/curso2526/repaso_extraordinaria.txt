@@ -1,0 +1,47 @@
+5 preguntas - 1 punto por pregunta
+
+ANDROID
+
+Activity -> XML + KT
+	Manifest
+	Ciclo vida -> onCreate - onDestroy
+		Cambio de recursos, orientacion -> se puede romper el estado -> savedInstanceState (onSavedInstanceState)
+	Tantas activities como queramos -> para poder cambiar entre ellas Intent con o sin datos (putExtra) -> startActivity()
+
+	View (spinner / recycler) -> XML + Adapter (asocia la parte logica con la parte grafica)
+		recycler -> ViewHolder
+
+Fragments -> Estaticos y Dinamicos
+
+Base de datos -> 	SQLite (base de datos interna)
+					Firebase. (PaaS) Caja negra que da funcionalidades de backend -> Auth / RTimeDatabase / FireStore / Storage
+					Volley -> API externa mediante HTTP
+
+Dime cuales son los principales metodos del ciclo de vida de una activity en android
+Si quiero acceder a un elemento desde la parte logica, declarado en la parte grafica, como lo hago?
+Si quiero una persistencia de datos, cual de todas las opciones disponibles utilizarias y porque
+
+FLUTTER
+
+Cross -> WEB / MOVIL / ESCRITORIO
+
+Dart
+Widget -> elementos -> cualquiera -> una pantalla -> boton -> texto de un boton
+	Stateles -> renderizar elementos
+		@build
+	Stateful -> guardar y renderizar elementos
+		Stateful -> @createState
+		State -> @build
+
+
+Define el concepto de widget y los diferentes tipos que existen dentro del desarrollo flutter
+
+UNITY
+
+	Editor
+		GameObject -> Components -> funcionalidades extras (gravedad, choque, imagen, sonido, script)
+	Script ->. C# -> Start / Update / FixedUpdate -> OnCollision2DEntered OnCollision2DExited
+
+Define los pricipales componentes que se puede aplicar a un gameobject
+Indica cual es la diferencia entre los metodos Start / Update / FixedUpdate y para que se utiliza cada uno de ellos
+
