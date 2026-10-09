@@ -1,0 +1,31 @@
+Moviles
+	nativo -> android -> Java / Kotlin -> VSC (extension) -> Android Studio (IntelliJIDEA + Plugins)
+					Kotlin
+					AndroidStudio
+					Activity -> Pantallas
+						.kt  -> logica : AppCompactActivy() -> como se comportan los UI
+						.xml -> grafica: que elementos se ven (UI) y como se organizan (view - final (button/ recycler / check) y layouts (linear / constraint / container / frame))
+
+						.kt -> compose. logica y grafica
+						UI -> listener - menus - dialogos - fragment (Basic)
+					Fragment (kt + xml)
+					Base datos - SQL / NSQL
+						1 	Android-Cliente ------------- SQLite : base de datos interna. bd no dist. /data/data/app/database
+							Statement - PrepareStatment - Resultset -> SELECT * FROM * WHERE * , INSERT INTO 
+						1.1 ORM Android-Cliente --ORM------------ SQLite. SQLite+Room
+						2. API (capa 3)
+							Android -----https-----SRWeb------jdbc:mysql-------SQL -> springBoot / php-laravel / Django - Flask / express
+						3	PaaS - Auth - DataBase - Storage -> Firebase / Supabase
+							Android / web / ios / Unity / Flutter -> Firebase
+
+
+			  ios -> objective c - swift -> MacOS xcode cocoapods
+
+	cross-platform -> android / ios / web / desktop
+
+				angular native / react native / vue native -> basados en js/ts -> DAW
+				flutter -> PWA -> Dart -> widget 
+
+
+Videojuegos -> web / movil / desktop
+			   Unity + C# -> 2D
