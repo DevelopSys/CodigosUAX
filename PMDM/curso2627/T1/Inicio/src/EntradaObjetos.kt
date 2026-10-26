@@ -37,6 +37,9 @@ fun main() {
         }
 
     }
+    // 11111A
+    val personaEncontrada: Persona? = lista.find { it.dni == "11111A"  } // null
+    val listaFiltrada: List<Persona> = lista.filter { it.nombre?.contains("a") ?: false } // List = []
     /*for(PErsona item: lista){
         // no tengo la variable de posicion -> i
     }*/
